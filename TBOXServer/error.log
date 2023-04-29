@@ -1,0 +1,18 @@
+2023-04-26 14:23:28
+java.io.IOException: Stream closed
+	at sun.nio.cs.StreamEncoder.ensureOpen(StreamEncoder.java:45)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:118)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:135)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:220)
+	at java.io.Writer.write(Writer.java:157)
+	at java.io.Writer.append(Writer.java:227)
+	at netTest.APPServer.server4TBox(APPServer.java:38)
+	at netTest.APPServer.main(APPServer.java:16)
+
+2023-04-26 14:38:48
+java.io.IOException: Stream Closed
+	at java.io.FileOutputStream.writeBytes(Native Method)
+	at java.io.FileOutputStream.write(FileOutputStream.java:313)
+	at netTest.APPServer.server4TBox(APPServer.java:39)
+	at netTest.APPServer.main(APPServer.java:16)
+
